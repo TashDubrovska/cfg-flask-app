@@ -15,4 +15,4 @@ def send():
 
   return "Greeting sent!"
 
-app.run(debug=True)
+app.run(debug=False)
