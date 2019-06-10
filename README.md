@@ -1,6 +1,6 @@
 # Hosting your Python app
 
-To start this please fork this repository on GitHub and 
+**To start this please fork this repository on GitHub and clone your forked version!**
 
 0. If you are a Mac user please see [Homebrew installation section](#install-homebrew)
 1. Install command line tools for Heroku:
@@ -29,11 +29,13 @@ heroku create
 https://pure-refuge-43369.herokuapp.com/
 ```
 Currently it will be showing default page.
+
 7. Install `gunicorn` with `pip`:
 ```bash
 python -m pip install gunicorn
 ```
 `gunicorn` is a simple server which works a lot better when hosted and can be used together with Flask.
+
 8. Remove `app.run()` from the main file of your app.
 9. Check that everything is working locally by running:
 ```bash
